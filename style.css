@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body{
+    display: flex;
+    background: #dadada;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav{
+    width: 80rem;
+    height: 3.3125rem;
+    background: #fff;
+    border-radius: 4.25rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.logo{
+    color: #0F38A1;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.logo .caps{
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+button{
+    font-family: inherit;
+    width: 5rem;
+    height: 1.8125rem;
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+
+.sign-in{
+    background: transparent;
+    border: 1px solid #0F38A1;
+    color:#0F38A1;
+}
+
+.register{
+    background: #ED930C;
+    border: none;
+    color: #fff;
+}
+
+.home{
+    color: #0F38A1;
+}
